@@ -1,0 +1,17 @@
+{
+    // globals
+    "browser"  : true,
+    "jquery"   : true,
+    "devel"    : true,
+
+    // enforce
+    "bitwise"  : true,
+    "curly"    : true,
+    "latedef"  : true,
+    "noempty"  : true,
+    "trailing" : true,
+    "undef"    : true,
+
+    // relax
+    "sub"      : true 
+}
