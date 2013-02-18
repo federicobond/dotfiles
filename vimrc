@@ -35,8 +35,6 @@
 
 " Basic configs
     set hidden
-    set history=200
-    set laststatus=2
     set nowrap
     set number
     set ruler
@@ -54,7 +52,7 @@
 
     if has('gui_macvim')
         set guifont=Monaco:h13
-    elseif match(system("uname"), "Darwin") == 0
+    elseif match(system("uname"), "Darwin") > -1
         colorscheme Tomorrow-Night-Terminalapp
     endif
 
