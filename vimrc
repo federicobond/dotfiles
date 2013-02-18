@@ -14,8 +14,6 @@
     Bundle 'Jinja'
     Bundle 'MarcWeber/vim-addon-mw-utils'
     Bundle 'SirVer/ultisnips'
-    Bundle 'davidhalter/jedi-vim'
-    Bundle 'ervandew/supertab'
     Bundle 'godlygeek/tabular'
     Bundle 'kien/ctrlp.vim'
     Bundle 'klen/python-mode'
