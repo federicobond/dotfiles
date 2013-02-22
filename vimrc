@@ -33,12 +33,16 @@
     Bundle 'tpope/vim-sensible'
     Bundle 'tpope/vim-surround'
 
+" Manually load vim-sensible defaults to enable overriding
+    runtime! plugin/sensible.vim
+
 " Basic configs
     set hidden
     set nowrap
     set number
     set ruler
     set showmatch
+    set listchars="eol:$"
 
 " Enable filetype detection
     filetype plugin indent on
