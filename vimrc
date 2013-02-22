@@ -15,6 +15,7 @@
     Bundle 'MarcWeber/vim-addon-mw-utils'
     Bundle 'SirVer/ultisnips'
     Bundle 'godlygeek/tabular'
+    Bundle 'jergason/scala.vim'
     Bundle 'kien/ctrlp.vim'
     Bundle 'klen/python-mode'
     Bundle 'majutsushi/tagbar'
