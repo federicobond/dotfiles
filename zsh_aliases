@@ -1,16 +1,5 @@
 # vim: ft=sh
 
-alias b="brew"
-alias c="clear"
-alias g="git"
-alias o="open"
-alias v="vim"
-
-alias git="hub"
-
-# Recursively delete `.DS_Store` files
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
-
 function mcd() {
     mkdir -p "$1" && cd "$1";
 }
@@ -35,5 +24,3 @@ function extract() {
          echo "'$1' is not a valid file"
      fi
 }
-
-
