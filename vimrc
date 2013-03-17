@@ -121,8 +121,6 @@
     autocmd BufRead,BufNewFile *.ru,Vagrantfile,Guardfile setfiletype ruby
     autocmd filetype ruby,eruby setlocal shiftwidth=2 softtabstop=2 tabstop=2
 
-" Settings for Octave
-
 " -----------------------------------------------------------------------------
 " NAVIGATION
 " -----------------------------------------------------------------------------
