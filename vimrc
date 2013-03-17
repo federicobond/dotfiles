@@ -19,6 +19,7 @@
     Bundle 'kien/ctrlp.vim'
     Bundle 'klen/python-mode'
     Bundle 'majutsushi/tagbar'
+    Bundle 'airblade/vim-gitgutter'
     Bundle 'mattn/zencoding-vim'
     Bundle 'myusuf3/numbers.vim'
     Bundle 'octave.vim--'
@@ -33,6 +34,7 @@
     Bundle 'tpope/vim-repeat'
     Bundle 'tpope/vim-sensible'
     Bundle 'tpope/vim-surround'
+    Bundle 'tpope/vim-unimpaired'
 
 " Manually load vim-sensible defaults to enable overriding
     runtime! plugin/sensible.vim
