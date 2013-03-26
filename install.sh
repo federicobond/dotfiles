@@ -17,6 +17,7 @@ rm -f ~/.gitconfig
 rm -f ~/.gitignore
 rm -f ~/.jshintrc
 rm -f ~/.tmux.conf
+rm -f ~/.ackrc
 
 echo "Symlinking files"
 ln -s ~/dotfiles/profile ~/.profile
@@ -30,6 +31,7 @@ ln -s ~/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/dotfiles/gitignore ~/.gitignore
 ln -s ~/dotfiles/jshintrc ~/.jshintrc
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
+ln -s ~/dotfiles/ackrc ~/.ackrc
 
 if [ `uname` == "Darwin" ]; then
     echo "Setting defaults for OS X"
