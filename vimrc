@@ -30,6 +30,7 @@
     Bundle 'tomtom/tlib_vim'
     Bundle 'tpope/vim-eunuch'
     Bundle 'tpope/vim-fugitive'
+    Bundle 'tpope/vim-haml'
     Bundle 'tpope/vim-markdown'
     Bundle 'tpope/vim-repeat'
     Bundle 'tpope/vim-sensible'
