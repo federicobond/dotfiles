@@ -162,6 +162,8 @@
                                \ 'active_filetypes': [],
                                \ 'passive_filetypes': ['html'] }
 
+    let g:syntastic_check_on_open=1
+
 " NERDCommenter settings
     let NERDSpaceDelims=1
 
