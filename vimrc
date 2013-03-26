@@ -178,7 +178,11 @@
     let g:use_zen_complete_tag = 1
 
 " CtrlP
-    let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+    let g:ctrlp_custom_ignore = {
+     \ 'dir':  '\v[\/](\.git|\.hg|\.svn|env)$',
+     \ 'file': '\v\.pyc',
+     \ 'link': '',
+     \ }
 
 " UltiSnips
     let g:UltiSnipsExpandTrigger='<tab>'
