@@ -156,6 +156,18 @@
 " Correct indentation after opening a phpdocblock and automatic * on every line
     set formatoptions=croqw2
 
+" Configure %% as an expression that returns the current file directory
+    cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+
+" Restore comma function
+    noremap \ ,
+
+" Disable arrow keys in normal mode
+    noremap <Up> <Nop>
+    noremap <Down> <Nop>
+    noremap <Left> <Nop>
+    noremap <Right> <Nop>
+
 " -----------------------------------------------------------------------------
 " PLUGINS
 " -----------------------------------------------------------------------------
