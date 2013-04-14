@@ -71,11 +71,7 @@
     set wildignore+=*/tmp/*,*.so,*.swp,*.zip,env/*
 
 " Do not display menu and toolbar in gVim
-    set guioptions-=m
-    set guioptions-=T
-
-" Configure indentation
-    set autoindent
+    set guioptions-=mT
 
 " Configure tabs
     set expandtab
