@@ -5,6 +5,7 @@ automake
 bison
 boost
 cairo
+cgdb
 cloc
 clojure
 cmake
@@ -28,7 +29,9 @@ gfortran
 ghc
 git
 git-flow
+glew
 glib
+glm
 glpk
 gmp
 gnu-prolog
@@ -43,7 +46,6 @@ harfbuzz
 haskell-platform
 hdf5
 htop-osx
-hub
 icu4c
 io
 jasper
@@ -91,10 +93,15 @@ phantomjs
 pidof
 pixman
 pkg-config
+play
 qhull
 qrupdate
+r
+rabbitmq
 ragel
 rbenv
+rbenv-gemset
+rbenv-vars
 readline
 redis
 rhino
@@ -102,9 +109,12 @@ rlwrap
 rtmpdump
 ruby-build
 scala
+sdl
+sdl_image
 shocco
 splint
 sqlite
+ssh-copy-id
 suite-sparse
 szip
 tbb
