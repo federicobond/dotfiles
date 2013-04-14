@@ -119,18 +119,25 @@
     autocmd filetype ruby,eruby setlocal shiftwidth=2 softtabstop=2 tabstop=2
 
 " -----------------------------------------------------------------------------
-" NAVIGATION
-" -----------------------------------------------------------------------------
-
-" Maintain more context around the cursor
-    set scrolloff=5
-
-" -----------------------------------------------------------------------------
 " SEARCH
 " -----------------------------------------------------------------------------
 
     set ignorecase " Make searches case-insensitive...
     set smartcase  " ...unless they contain upper-case letters
+    set infercase
+    set hlsearch
+    set gdefault   " Apply substitutions globally by default
+
+" Fix & command, preserving flags
+    nnoremap & :&&<CR>
+    xnoremap & :&&<CR>
+
+" Map ,<space> to clear search highlight
+    nnoremap <leader><space> :noh<cr>
+
+" Use normal regex handling to search and replace
+    nnoremap / /\v
+    vnoremap / /\v
 
 " Maps <F3> to search and replace
     nnoremap <F3> :%s/
