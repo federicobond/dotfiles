@@ -67,7 +67,8 @@
 " Configure completion
     set complete=.,i,d,t
     set completeopt=menuone
-    set wildmode=longest,list:longest
+    set wildmenu
+    set wildmode=list:longest
     set wildignore+=*/tmp/*,*.so,*.swp,*.zip,env/*
 
 " Do not display menu and toolbar in gVim
