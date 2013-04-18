@@ -56,12 +56,12 @@
 
 " Set the color scheme.
     set background=dark
-    colorscheme Tomorrow-Night
+    colorscheme solarized
 
     if has('gui_macvim')
         set guifont=Monaco:h13
     elseif match(system("uname"), "Darwin") > -1
-        colorscheme Tomorrow-Night-Terminalapp
+        " colorscheme solarized
     endif
 
 " Configure completion
