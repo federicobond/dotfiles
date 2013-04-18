@@ -136,10 +136,6 @@
 " Map ,<space> to clear search highlight
     nnoremap <leader><space> :noh<cr>
 
-" Use normal regex handling to search and replace
-    nnoremap / /\v
-    vnoremap / /\v
-
 " Maps <F3> to search and replace
     nnoremap <F3> :%s/
     inoremap <F3> <ESC>:%s/
