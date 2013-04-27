@@ -63,6 +63,8 @@
     colorscheme solarized
 
     if has('gui_macvim')
+        set guioptions-=m
+        set guioptions-=T
         set guifont=Monaco:h13
     elseif match(system("uname"), "Darwin") > -1
         " colorscheme solarized
@@ -74,9 +76,6 @@
     set wildmenu
     set wildmode=list:longest
     set wildignore+=*/tmp/*,*.so,*.swp,*.zip,env/*
-
-" Do not display menu and toolbar in gVim
-    set guioptions-=mT
 
 " Configure tabs
     set expandtab
