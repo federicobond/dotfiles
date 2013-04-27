@@ -52,6 +52,9 @@
     set splitbelow
     set splitright
 
+" Solarized
+    let g:solarized_termtrans = 1
+
 " Enable filetype detection
     filetype plugin indent on
 
