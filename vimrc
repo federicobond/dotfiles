@@ -48,6 +48,10 @@
     set showmatch
     set listchars="eol:$"
 
+" Open splits below and to the right
+    set splitbelow
+    set splitright
+
 " Enable filetype detection
     filetype plugin indent on
 
