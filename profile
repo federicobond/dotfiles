@@ -3,7 +3,7 @@ if [[ -z $TMUX ]] then
     tmux attach-session -t "$USER" || tmux new-session -s "$USER"
     exit
 fi
-#
+
 # Configure rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
