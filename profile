@@ -7,7 +7,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export EDITOR='/usr/local/bin/vim'
 
 # Export aditional paths
-export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Export locale
 export LC_CTYPE='en_US.UTF-8'
