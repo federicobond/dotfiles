@@ -1,0 +1,8 @@
+snippet jq "Load jQuery with local fallback" b
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    if (!window.jQuery) {
+        document.write('<script src="${0:/js/jquery.js}"><\/script>');
+    }
+</script>
+endsnippet
