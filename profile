@@ -31,6 +31,9 @@ export PATH="$PATH:/usr/local/share/npm/bin"
 # Export python tools path
 export PATH="$PATH:/usr/local/share/python"
 
+# Export pythonstartup script
+export PYTHONSTARTUP="$HOME/.pythonstartup"
+
 # Export Postgres.app binary path
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
