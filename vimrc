@@ -198,9 +198,6 @@
 " Go Plugin
     set rtp+=$GOROOT/misc/vim
 
-" Python-mode
-    let g:pymode_folding = 0
-
 " Zencoding
     let g:user_zen_expandabbr_key = '<c-e>'
     let g:use_zen_complete_tag = 1
