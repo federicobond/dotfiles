@@ -42,6 +42,3 @@ source $HOME/.zsh_aliases
 if [ -f $HOME/.profile ]; then
     source $HOME/.profile
 fi
-
-
-alias m="python manage.py"
