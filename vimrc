@@ -171,6 +171,16 @@
     noremap <Left> <Nop>
     noremap <Right> <Nop>
 
+" Map j, k and J to saner versions
+    nnoremap j gj
+    nnoremap k gk
+    nnoremap gJ J
+    nnoremap J gJ
+    vnoremap j gj
+    vnoremap k gk
+    vnoremap gJ J
+    vnoremap J gJ
+
 " -----------------------------------------------------------------------------
 " PLUGINS
 " -----------------------------------------------------------------------------
