@@ -20,9 +20,7 @@ export HOMEBREW_TEMP='/tmp'
 export PATH=$PATH:$HOME/.cabal/bin
 
 # Export go tools
-export GOROOT="/usr/local/Cellar/go/1.0.3"
 export GOPATH="$HOME/code/go"
-export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
 
 # Export node and npm paths
 export NODE_PATH='/usr/local/lib/node_modules'
