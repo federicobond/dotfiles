@@ -19,6 +19,7 @@ rm -f ~/.jshintrc
 rm -f ~/.tmux.conf
 rm -f ~/.ackrc
 rm -f ~/.pythonstartup
+rm -rf ~/.pip
 
 echo "Symlinking files"
 ln -s ~/dotfiles/profile ~/.profile
@@ -34,6 +35,7 @@ ln -s ~/dotfiles/jshintrc ~/.jshintrc
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
 ln -s ~/dotfiles/ackrc ~/.ackrc
 ln -s ~/dotfiles/pythonstartup ~/.pythonstartup
+ln -s ~/dotfiles/pip ~/.pip
 
 if [ `uname` == "Darwin" ]; then
     echo "Setting defaults for OS X"
