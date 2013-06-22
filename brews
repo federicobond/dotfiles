@@ -4,6 +4,7 @@ autoconf
 automake
 bison
 boost
+brew-cask
 cairo
 cgdb
 cloc
