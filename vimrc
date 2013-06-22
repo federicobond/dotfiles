@@ -18,6 +18,7 @@
     Bundle 'kana/vim-textobj-user'
     Bundle 'kana/vim-textobj-lastpat'
     Bundle 'kien/ctrlp.vim'
+    Bundle 'mattn/gist-vim'
     Bundle 'mattn/zencoding-vim'
     Bundle 'myusuf3/numbers.vim'
     Bundle 'nelstrom/vim-visual-star-search'
