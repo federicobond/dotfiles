@@ -31,7 +31,6 @@ gettext
 gfortran
 ghc
 git
-git-flow
 glew
 glib
 glm
@@ -92,6 +91,7 @@ pidof
 pixman
 pkg-config
 protobuf
+python3
 qhull
 qrupdate
 r
