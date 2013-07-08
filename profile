@@ -38,8 +38,3 @@ export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 # Export Heroku Toolbelt path
 export PATH="/usr/local/heroku/bin:$PATH"
 
-# Configure tmux to start or reattach to session automatically
-if [[ -z $TMUX ]] then
-    tmux attach-session -t "$USER" || tmux new-session -s "$USER"
-    exit
-fi
