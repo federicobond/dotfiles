@@ -10,13 +10,11 @@
 	nb = checkout -b
 	ap = add --patch
 	bd = branch -d
-	rollback = reset --hard HEAD@{1}
 	master = checkout master
 	develop = checkout develop
-	latest = for-each-ref --sort=-committerdate --format='%(committerdate:short) %(refname:short) [%(committername)]'
 	undo = reset --soft HEAD^
-    standup = !git log --since '1 day ago' --oneline --author $(git config user.email)
 	unstage = reset HEAD
+	forgot = commit --amend -C HEAD
 [color]
 	ui = true
 [instaweb]
