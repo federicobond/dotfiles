@@ -38,3 +38,8 @@ export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 # Export Heroku Toolbelt path
 export PATH="/usr/local/heroku/bin:$PATH"
 
+# Alias hub to git
+eval "$(hub alias -s)"
+
+# Init autoenv
+source /usr/local/opt/autoenv/activate.sh
