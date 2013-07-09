@@ -49,6 +49,8 @@
     set ruler
     set showmatch
     set listchars="eol:$"
+    set undofile
+    set undodir^=~/.vim/undo
 
 " Open splits below and to the right
     set splitbelow
