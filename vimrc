@@ -14,6 +14,7 @@
     Bundle 'Jinja'
     Bundle 'SirVer/ultisnips'
     Bundle 'airblade/vim-gitgutter'
+    Bundle 'bling/vim-airline'
     Bundle 'jergason/scala.vim'
     Bundle 'kana/vim-textobj-user'
     Bundle 'kana/vim-textobj-lastpat'
@@ -214,3 +215,8 @@
     let g:UltiSnipsExpandTrigger='<tab>'
     let g:UltiSnipsJumpForwardTrigger='<tab>'
     let g:UltiSnipsJumpBackwardTrigger='<s-tab>'
+
+" Airline
+    let g:airline_powerline_fonts=1
+    let g:airline_theme='light'
+    let g:airline_enable_fugitive=1
