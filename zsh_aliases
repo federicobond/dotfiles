@@ -7,6 +7,10 @@ function mcd() {
     mkdir -p "$1" && cd "$1";
 }
 
+function tele-ssh() {
+    ssh -F .tele/ssh_config $@
+}
+
 function extract() {
     if [ -f $1 ] ; then
       case $1 in
