@@ -206,11 +206,6 @@
      \ 'link': '',
      \ }
 
-" UltiSnips
-    let g:UltiSnipsExpandTrigger='<tab>'
-    let g:UltiSnipsJumpForwardTrigger='<tab>'
-    let g:UltiSnipsJumpBackwardTrigger='<s-tab>'
-
 " Airline
     let g:airline_powerline_fonts=1
     let g:airline_theme='light'
