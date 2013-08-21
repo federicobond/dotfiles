@@ -40,6 +40,10 @@
     set listchars="eol:$"
     set undofile
     set undodir^=~/.vim/undo
+    set noshowcmd
+    set noshowmode
+    set clipboard=unnamed
+    set smartindent
 
 " Open splits below and to the right
     set splitbelow
@@ -61,7 +65,7 @@
     if has('gui_macvim')
         set guioptions-=m
         set guioptions-=T
-        set guifont=Monaco:h13
+        set guifont=Menlo\ for\ Powerline:h14
     elseif match(system("uname"), "Darwin") > -1
         " colorscheme solarized
     endif
