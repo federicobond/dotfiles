@@ -209,4 +209,4 @@
 " Airline
     let g:airline_powerline_fonts=1
     let g:airline_theme='light'
-    let g:airline_enable_fugitive=1
+    let g:airline_enable_branch=1
