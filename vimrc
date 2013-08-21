@@ -15,7 +15,7 @@
     Bundle 'kien/ctrlp.vim'
     Bundle 'mattn/webapi-vim'
     Bundle 'mattn/gist-vim'
-    Bundle 'mattn/zencoding-vim'
+    Bundle 'mattn/emmet-vim'
     Bundle 'othree/html5.vim'
     Bundle 'rking/ag.vim'
     Bundle 'scrooloose/syntastic'
