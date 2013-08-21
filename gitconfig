@@ -20,7 +20,7 @@
 [instaweb]
 	httpd = webrick
 [push]
-	default = matching
+	default = simple
 [credential]
 	helper = osxkeychain
 [help]
