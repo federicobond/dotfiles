@@ -195,10 +195,6 @@
 " Go Plugin
     set rtp+=$GOROOT/misc/vim
 
-" Zencoding
-    let g:user_zen_expandabbr_key = '<c-e>'
-    let g:use_zen_complete_tag = 1
-
 " CtrlP
     let g:ctrlp_custom_ignore = {
      \ 'dir':  '\v[\/](\.git|\.hg|\.svn|env)$',
