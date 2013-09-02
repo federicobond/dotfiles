@@ -1,7 +1,7 @@
 # vim: ft=sh
 
 # Alias update command
-alias up="brew update && brew upgrade"
+alias up="brew update && brew upgrade && brew cleanup"
 
 function mcd() {
     mkdir -p "$1" && cd "$1";
