@@ -3,16 +3,8 @@
 	email = federicobond@gmail.com
 [alias]
 	co = checkout
-	ds = diff --staged
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
-	ls = log --pretty=format:\"%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]\" --decorate --date=short
-	st = status -sb
-	nb = checkout -b
-	ap = add --patch
-	bd = branch -d
 	master = checkout master
 	develop = checkout develop
-	undo = reset --soft HEAD^
 	unstage = reset HEAD
 	forgot = commit --amend -C HEAD
 [color]
