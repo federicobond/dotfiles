@@ -43,6 +43,3 @@ export PATH="$PATH:$HOME/bin"
 
 # Alias hub to git
 eval "$(hub alias -s)"
-
-# Init autoenv
-source /usr/local/opt/autoenv/activate.sh
