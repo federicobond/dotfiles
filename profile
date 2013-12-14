@@ -33,9 +33,6 @@ export PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages:$PYTHONPATH
 # Export Postgres.app binary path
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
-# Export Heroku Toolbelt path
-export PATH="/usr/local/heroku/bin:$PATH"
-
 # Export ~/bin path
 export PATH="$PATH:$HOME/bin"
 
