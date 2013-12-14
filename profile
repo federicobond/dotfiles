@@ -26,11 +26,9 @@ export GOPATH="$HOME/code/go"
 export NODE_PATH='/usr/local/lib/node_modules'
 export PATH="$PATH:/usr/local/share/npm/bin"
 
-# Export python tools path
-export PATH="$PATH:/usr/local/share/python"
-
-# Export pythonstartup script
+# Export pythonstartup script and python path
 export PYTHONSTARTUP="$HOME/.pythonstartup"
+export PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages:$PYTHONPATH
 
 # Export Postgres.app binary path
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
