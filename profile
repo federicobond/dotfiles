@@ -36,5 +36,3 @@ export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 # Export ~/bin path
 export PATH="$PATH:$HOME/bin"
 
-# Alias hub to git
-eval "$(hub alias -s)"
