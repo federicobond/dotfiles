@@ -1,7 +1,9 @@
 apple-gcc42
 atk
 autoconf
+autogen
 automake
+bdw-gc
 bison
 boost
 brew-cask
@@ -14,6 +16,9 @@ cmake
 ctags
 discount
 dotwrp
+doxygen
+ec2-api-tools
+elixir
 erlang
 faac
 ffmpeg
@@ -44,6 +49,7 @@ gnutls
 go
 graphicsmagick
 graphviz
+guile
 harfbuzz
 haskell-platform
 hdf5
@@ -68,10 +74,13 @@ libpng
 libtasn1
 libtiff
 libtool
+libunistring
 libvo-aacenc
 libvorbis
 libvpx
+libyaml
 little-cms
+llvm
 lua
 memcached
 mercurial
@@ -83,6 +92,7 @@ nettle
 node
 octave
 opencore-amr
+openssl
 optipng
 ossp-uuid
 p11-kit
@@ -92,17 +102,19 @@ pidof
 pixman
 pkg-config
 protobuf
+py2cairo
+python
 python3
 qhull
 qrupdate
-r
-rabbitmq
+qt
 ragel
 rbenv
 rbenv-gem-rehash
 rbenv-gemset
 rbenv-vars
 readline
+reattach-to-user-namespace
 redis
 rlwrap
 rtmpdump
@@ -115,6 +127,7 @@ sqlite
 ssh-copy-id
 suite-sparse
 szip
+taglib
 tbb
 texi2html
 texinfo
@@ -122,6 +135,7 @@ the_silver_searcher
 theora
 tmux
 tokyo-cabinet
+tomcat
 tree
 vim
 watch
@@ -132,5 +146,6 @@ xz
 yajl
 yasm
 youtube-dl
+zeromq
 zsh
 zsh-lovers
