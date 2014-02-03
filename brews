@@ -4,6 +4,7 @@ autoconf
 autogen
 automake
 bdw-gc
+berkeley-db4
 bison
 boost
 brew-cask
@@ -23,6 +24,7 @@ erlang
 faac
 ffmpeg
 fftw
+finch
 fltk
 fontconfig
 fontforge
@@ -47,6 +49,7 @@ gnu-sed
 gnuplot
 gnutls
 go
+gobject-introspection
 graphicsmagick
 graphviz
 guile
@@ -56,6 +59,7 @@ hdf5
 htop-osx
 icu4c
 imagemagick
+intltool
 io
 isl
 jasper
@@ -67,8 +71,9 @@ libevent
 libffi
 libgcrypt
 libgpg-error
-libmemcached
+libidn
 libmpc
+libmpdclient
 libogg
 libpng
 libtasn1
@@ -85,10 +90,13 @@ lua
 memcached
 mercurial
 metis
+miniupnpc
 mpfr
 multimarkdown
 mysql
+ncmpcpp
 nettle
+nginx
 node
 octave
 opencore-amr
@@ -122,6 +130,7 @@ ruby-build
 scala
 sdl
 sdl_image
+snappy
 splint
 sqlite
 ssh-copy-id
@@ -137,6 +146,7 @@ tmux
 tokyo-cabinet
 tomcat
 tree
+unixodbc
 vim
 watch
 wget
