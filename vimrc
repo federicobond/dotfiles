@@ -34,7 +34,6 @@
     set number
     set ruler
     set showmatch
-    set listchars="eol:$"
     set undofile
     set undodir^=~/.vim/undo
     set noshowcmd
