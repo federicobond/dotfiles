@@ -11,22 +11,19 @@
 
 " Register bundles
     Bundle 'gmarik/vundle'
-    Bundle 'bling/vim-airline'
     Bundle 'kien/ctrlp.vim'
-    Bundle 'mattn/webapi-vim'
-    Bundle 'mattn/gist-vim'
     Bundle 'mattn/emmet-vim'
     Bundle 'othree/html5.vim'
-    Bundle 'rking/ag.vim'
     Bundle 'scrooloose/syntastic'
     Bundle 'tpope/vim-abolish'
     Bundle 'tpope/vim-commentary'
     Bundle 'tpope/vim-eunuch'
     Bundle 'tpope/vim-fugitive'
-    Bundle 'tpope/vim-markdown'
+    Bundle 'tpope/vim-git'
     Bundle 'tpope/vim-repeat'
     Bundle 'tpope/vim-sensible'
     Bundle 'tpope/vim-surround'
+    Bundle 'bling/vim-airline'
 
 " Manually load vim-sensible defaults to enable overriding
     runtime! plugin/sensible.vim
