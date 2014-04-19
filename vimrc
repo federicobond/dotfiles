@@ -74,9 +74,9 @@
 
 " Configure tabs
     set expandtab
-    set shiftwidth=4
-    set softtabstop=4
-    set tabstop=4
+    set shiftwidth=2
+    set softtabstop=2
+    set tabstop=2
     set smarttab
 
 " Set leader to ,
@@ -116,6 +116,10 @@
 " Settings for Ruby
     autocmd BufRead,BufNewFile *.ru,Vagrantfile,Guardfile setfiletype ruby
     autocmd filetype ruby,eruby setlocal shiftwidth=2 softtabstop=2 tabstop=2
+    autocmd filetype ruby nmap <leader>d Orequire "debugger"; debugger<ESC>:w<CR>
+
+" Settings for Python
+    autocmd filetype python setlocal shiftwidth=4 softtabstop=4 tabstop=4
 
 " -----------------------------------------------------------------------------
 " SEARCH
