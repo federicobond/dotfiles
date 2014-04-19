@@ -138,10 +138,6 @@
 " Map ,<space> to clear search highlight
     nnoremap <leader><space> :noh<cr>
 
-" Maps <F3> to search and replace
-    nnoremap <F3> :%s/
-    inoremap <F3> <ESC>:%s/
-
 " -----------------------------------------------------------------------------
 " MISCELLANEOUS
 " -----------------------------------------------------------------------------
@@ -161,12 +157,6 @@
 " Restore comma function
     noremap \ ,
 
-" Disable arrow keys in normal mode
-    noremap <Up> <Nop>
-    noremap <Down> <Nop>
-    noremap <Left> <Nop>
-    noremap <Right> <Nop>
-
 " Map j, k and J to saner versions
     nnoremap j gj
     nnoremap k gk
@@ -181,16 +171,6 @@
 " PLUGINS
 " -----------------------------------------------------------------------------
 
-" Disable slow syntax checking in HTML files
-    let g:syntastic_mode_map = { 'mode': 'active',
-                               \ 'active_filetypes': [],
-                               \ 'passive_filetypes': ['html'] }
-
-    let g:syntastic_check_on_open=1
-
-" NERDCommenter settings
-    let NERDSpaceDelims=1
-
 " Go Plugin
     set rtp+=$GOROOT/misc/vim
 
@@ -201,25 +181,5 @@
      \ 'link': '',
      \ }
 
-" Airline
-    let g:airline_powerline_fonts=1
-    let g:airline_theme='light'
-    let g:airline_enable_branch=1
-
-    function! s:MkNonExDir(file, buf)
-        if empty(getbufvar(a:buf, '&buftype')) && a:file!~#'\v^\w+\:\/'
-            let dir=fnamemodify(a:file, ':h')
-            if !isdirectory(dir)
-                call mkdir(dir, 'p')
-            endif
-        endif
-    endfunction
-
-    augroup BWCCreateDir
-        autocmd!
-        autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
-    augroup END
-
-    let g:gist_clip_command = 'pbcopy'
-    let g:gist_detect_filetype = 1
-    let g:gist_open_browser_after_post = 1
+    let g:airline_powerline_fonts = 1
+    let g:airline_theme='solarized'
