@@ -1,4 +1,5 @@
 apple-gcc42
+arpack
 atk
 autoconf
 autogen
@@ -59,6 +60,7 @@ hdf5
 htop-osx
 icu4c
 imagemagick
+imagesnap
 intltool
 io
 isl
@@ -66,6 +68,7 @@ jasper
 jpeg
 lame
 leiningen
+leveldb
 libass
 libevent
 libffi
@@ -87,6 +90,7 @@ libyaml
 little-cms
 llvm
 lua
+maven
 memcached
 mercurial
 metis
@@ -98,7 +102,6 @@ ncmpcpp
 nettle
 nginx
 node
-octave
 opencore-amr
 openssl
 optipng
@@ -106,16 +109,17 @@ ossp-uuid
 p11-kit
 pango
 pcre
+php55
 pidof
 pixman
 pkg-config
 protobuf
 py2cairo
 python
-python3
 qhull
 qrupdate
 qt
+qt5
 ragel
 rbenv
 rbenv-gem-rehash
@@ -149,13 +153,16 @@ tree
 unixodbc
 vim
 watch
+webp
 wget
 x264
+xapian
 xvid
 xz
 yajl
 yasm
 youtube-dl
 zeromq
+zlib
 zsh
 zsh-lovers
