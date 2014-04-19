@@ -63,8 +63,6 @@
         set guioptions-=m
         set guioptions-=T
         set guifont=Menlo\ for\ Powerline:h14
-    elseif match(system("uname"), "Darwin") > -1
-        " colorscheme solarized
     endif
 
 " Configure completion
