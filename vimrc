@@ -164,6 +164,16 @@
     vnoremap gJ J
     vnoremap J gJ
 
+" Use visual lines for 0 and $ too
+    nnoremap $ g$
+    nnoremap 0 g0
+    nnoremap g0 0
+    nnoremap g$ $
+    vnoremap $ g$
+    vnoremap 0 g0
+    vnoremap g0 0
+    vnoremap g$ $
+
 " -----------------------------------------------------------------------------
 " PLUGINS
 " -----------------------------------------------------------------------------
