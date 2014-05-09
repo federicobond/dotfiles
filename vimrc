@@ -10,20 +10,21 @@
     call vundle#rc()
 
 " Register bundles
-    Bundle 'gmarik/vundle'
-    Bundle 'kien/ctrlp.vim'
-    Bundle 'mattn/emmet-vim'
-    Bundle 'othree/html5.vim'
-    Bundle 'scrooloose/syntastic'
-    Bundle 'tpope/vim-abolish'
-    Bundle 'tpope/vim-commentary'
-    Bundle 'tpope/vim-eunuch'
-    Bundle 'tpope/vim-fugitive'
-    Bundle 'tpope/vim-git'
-    Bundle 'tpope/vim-repeat'
-    Bundle 'tpope/vim-sensible'
-    Bundle 'tpope/vim-surround'
-    Bundle 'bling/vim-airline'
+    Plugin 'gmarik/vundle'
+    Plugin 'kien/ctrlp.vim'
+    Plugin 'mattn/emmet-vim'
+    Plugin 'othree/html5.vim'
+    Plugin 'scrooloose/syntastic'
+    Plugin 'tpope/vim-abolish'
+    Plugin 'tpope/vim-commentary'
+    Plugin 'tpope/vim-eunuch'
+    Plugin 'tpope/vim-fugitive'
+    Plugin 'tpope/vim-git'
+    Plugin 'tpope/vim-markdown'
+    Plugin 'tpope/vim-repeat'
+    Plugin 'tpope/vim-sensible'
+    Plugin 'tpope/vim-surround'
+    Plugin 'bling/vim-airline'
 
 " Manually load vim-sensible defaults to enable overriding
     runtime! plugin/sensible.vim
