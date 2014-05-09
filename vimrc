@@ -38,8 +38,6 @@
     set undofile
     set undodir^=~/.vim/undo
     set noshowcmd
-    set noshowmode
-    set clipboard=unnamed
     set smartindent
 
 " Open splits below and to the right
