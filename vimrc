@@ -115,6 +115,16 @@
 
 " Settings for Python
     autocmd filetype python setlocal shiftwidth=4 softtabstop=4 tabstop=4
+    autocmd filetype python nmap <leader>d Oimport pdb; pdb.set_trace()<ESC>:w<CR>
+
+" Settings for Javascript
+    autocmd filetype javascript nmap <leader>d Odebugger;<ESC>:w<CR>
+
+" Settings for markdown
+    autocmd filetype markdown set wrap
+
+" Settings for WordPress
+    autocmd BufRead,BufNewfile */wp-content/* setlocal noexpandtab
 
 " -----------------------------------------------------------------------------
 " SEARCH
