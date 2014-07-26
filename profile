@@ -4,6 +4,10 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/sbin:$HOME/bin:$PATH"
 # Configure rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+# Configure nodenv
+export PATH="$HOME/.nodenv/bin:$PATH"
+eval "$(nodenv init -)"
+
 # Configure tmuxinator
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
 
