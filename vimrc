@@ -32,7 +32,7 @@
 " Basic configs
     set hidden
     set nowrap
-    set number
+    set relativenumber
     set ruler
     set showmatch
     set undofile
