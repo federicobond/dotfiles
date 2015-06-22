@@ -31,16 +31,9 @@ ln -s ~/dotfiles/gemrc ~/.gemrc
 ln -s ~/dotfiles/irbrc ~/.irbrc
 ln -s ~/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/dotfiles/gitignore ~/.gitignore
-ln -s ~/dotfiles/jshintrc ~/.jshintrc
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
-ln -s ~/dotfiles/ackrc ~/.ackrc
 ln -s ~/dotfiles/pythonstartup ~/.pythonstartup
 ln -s ~/dotfiles/pip ~/.pip
-
-if [ `uname` == "Darwin" ]; then
-    echo "Setting defaults for OS X"
-    source osx
-fi
 
 echo "Done."
 

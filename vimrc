@@ -52,7 +52,7 @@
 
 " Set the color scheme.
     set background=dark
-    colorscheme solarized
+    colorscheme Tomorrow-Night
 
     if has('gui_macvim')
         set guioptions-=m
@@ -200,4 +200,4 @@
      \ }
 
     let g:airline_powerline_fonts = 1
-    let g:airline_theme='solarized'
+    let g:airline_theme='tomorrow'
