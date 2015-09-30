@@ -8,8 +8,11 @@ export LC_ALL='en_US.UTF-8'
 # Export the Haskell cabal bin
 export PATH=$PATH:$HOME/.cabal/bin
 
+# Export MacTeX path
+export PATH=$PATH:/usr/local/texlive/2015basic/bin/x86_64-darwin
+
 # Export go tools
-export GOPATH="$HOME/code/go"
+export GOPATH="$HOME/code/go/"
 
 # Export pythonstartup script and python path
 export PYTHONSTARTUP="$HOME/.pythonstartup"

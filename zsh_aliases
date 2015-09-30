@@ -3,8 +3,4 @@
 # Alias update command
 alias up="brew update && brew upgrade && brew cleanup"
 
-function tele-ssh() {
-    ssh -F .tele/ssh_config $@
-}
-
-alias m="python manage.py"
+alias gst="git status"

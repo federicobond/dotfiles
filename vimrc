@@ -11,9 +11,17 @@
 
 " Register bundles
     Plugin 'gmarik/vundle'
+    Plugin 'Valloric/YouCompleteMe'
+    Plugin 'bling/vim-airline'
+    Plugin 'editorconfig/editorconfig-vim'
+    Plugin 'jiangmiao/auto-pairs'
     Plugin 'kien/ctrlp.vim'
+    Plugin 'marijnh/tern_for_vim'
     Plugin 'mattn/emmet-vim'
+    Plugin 'mxw/vim-jsx'
     Plugin 'othree/html5.vim'
+    Plugin 'pangloss/vim-javascript'
+    Plugin 'rking/ag.vim'
     Plugin 'scrooloose/syntastic'
     Plugin 'tpope/vim-abolish'
     Plugin 'tpope/vim-commentary'
@@ -24,7 +32,7 @@
     Plugin 'tpope/vim-repeat'
     Plugin 'tpope/vim-sensible'
     Plugin 'tpope/vim-surround'
-    Plugin 'bling/vim-airline'
+    Plugin 'wakatime/vim-wakatime'
 
 " Manually load vim-sensible defaults to enable overriding
     runtime! plugin/sensible.vim
@@ -123,6 +131,9 @@
 " Settings for markdown
     autocmd filetype markdown set wrap
 
+" Settings for Haskell
+    autocmd filetype haskell setlocal shiftwidth=4 softtabstop=4 tabstop=4
+
 " Settings for WordPress
     autocmd BufRead,BufNewfile */wp-content/* setlocal noexpandtab
 
@@ -201,3 +212,6 @@
 
     let g:airline_powerline_fonts = 1
     let g:airline_theme='tomorrow'
+
+" Vim-JSX
+    let g:jsx_ext_required = 0
