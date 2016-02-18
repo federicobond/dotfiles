@@ -21,3 +21,5 @@
 	algorithm = histogram
 [status]
 	short = true
+[rebase]
+	autostash = 1
