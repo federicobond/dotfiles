@@ -134,8 +134,8 @@
 " Settings for markdown
     autocmd filetype markdown set wrap
 
-" Settings for Haskell
-    autocmd filetype haskell setlocal shiftwidth=4 softtabstop=4 tabstop=4
+" Settings for Haskell, Elm
+    autocmd filetype haskell,elm setlocal shiftwidth=4 softtabstop=4 tabstop=4
 
 " Settings for WordPress
     autocmd BufRead,BufNewfile */wp-content/* setlocal noexpandtab
