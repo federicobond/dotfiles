@@ -76,7 +76,7 @@
     set completeopt=menuone
     set wildmenu
     set wildmode=list:longest
-    set wildignore+=*/tmp/*,*.so,*.swp,*.zip,env/*
+    set wildignore+=*/tmp/*,*.so,*.swp,*.zip,env/*,node_modules/**
 
 " Configure tabs
     set expandtab
