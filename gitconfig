@@ -4,8 +4,6 @@
 [alias]
 	co = checkout
 	master = checkout master
-	develop = checkout develop
-	unstage = reset HEAD
 	forgot = commit --amend -C HEAD
 [color]
 	ui = true
