@@ -217,5 +217,8 @@
     let g:airline_powerline_fonts = 1
     let g:airline_theme='tomorrow'
 
+" vim-javascript
+    let g:javascript_plugin_flow = 1
+
 " Vim-JSX
     let g:jsx_ext_required = 0
