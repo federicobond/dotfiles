@@ -212,6 +212,7 @@
      \ 'file': '\v\.pyc',
      \ 'link': '',
      \ }
+    let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
     let g:airline_powerline_fonts = 1
     let g:airline_theme='tomorrow'
