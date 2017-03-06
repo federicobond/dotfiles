@@ -197,7 +197,7 @@
     vnoremap g$ $
 
 " Map :Q to :q (common typo)
-    command Q :q
+    command! Q :q
 
 " -----------------------------------------------------------------------------
 " PLUGINS
