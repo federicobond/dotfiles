@@ -3,38 +3,35 @@
 " -----------------------------------------------------------------------------
 
     set nocompatible
-    filetype off
-
-" Setup vundle
-    set rtp+=~/.vim/bundle/vundle/
-    call vundle#rc()
 
 " Register bundles
-    Plugin 'gmarik/vundle'
-    Plugin 'Valloric/YouCompleteMe'
-    Plugin 'vim-airline/vim-airline'
-    Plugin 'vim-airline/vim-airline-themes'
-    Plugin 'editorconfig/editorconfig-vim'
-    Plugin 'jiangmiao/auto-pairs'
-    Plugin 'ctrlpvim/ctrlp.vim'
-    Plugin 'lambdatoast/elm.vim'
-    Plugin 'marijnh/tern_for_vim'
-    Plugin 'mattn/emmet-vim'
-    Plugin 'mxw/vim-jsx'
-    Plugin 'othree/html5.vim'
-    Plugin 'pangloss/vim-javascript'
-    Plugin 'rking/ag.vim'
-    Plugin 'scrooloose/syntastic'
-    Plugin 'tpope/vim-abolish'
-    Plugin 'tpope/vim-commentary'
-    Plugin 'tpope/vim-eunuch'
-    Plugin 'tpope/vim-fugitive'
-    Plugin 'tpope/vim-git'
-    Plugin 'tpope/vim-markdown'
-    Plugin 'tpope/vim-repeat'
-    Plugin 'tpope/vim-sensible'
-    Plugin 'tpope/vim-surround'
-    Plugin 'wakatime/vim-wakatime'
+    call plug#begin('~/.vim/plugged')
+
+    Plug 'Valloric/YouCompleteMe'
+    Plug 'nanotech/jellybeans.vim'
+    Plug 'ctrlpvim/ctrlp.vim'
+    Plug 'editorconfig/editorconfig-vim'
+    Plug 'jiangmiao/auto-pairs'
+    Plug 'marijnh/tern_for_vim'
+    Plug 'mattn/emmet-vim'
+    Plug 'mxw/vim-jsx'
+    Plug 'othree/html5.vim'
+    Plug 'pangloss/vim-javascript'
+    Plug 'rking/ag.vim'
+    Plug 'scrooloose/syntastic'
+    Plug 'tpope/vim-abolish'
+    Plug 'tpope/vim-commentary'
+    Plug 'tpope/vim-eunuch'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-git'
+    Plug 'tpope/vim-markdown'
+    Plug 'tpope/vim-repeat'
+    Plug 'tpope/vim-sensible'
+    Plug 'tpope/vim-surround'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+
+    call plug#end()
 
 " Manually load vim-sensible defaults to enable overriding
     runtime! plugin/sensible.vim
