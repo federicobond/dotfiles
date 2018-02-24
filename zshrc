@@ -1,4 +1,14 @@
-# Path to your oh-my-zsh configuration.
+
+
+#
+# User configuration sourced by interactive shells
+#
+
+# Change default zim location
+export ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
+
+# Start zim
+[[ -s ${ZIM_HOME}/init.zsh ]] && source ${ZIM_HOME}/init.zsh# Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.

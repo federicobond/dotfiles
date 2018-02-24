@@ -1,11 +1,21 @@
 #!/usr/bin/env bash
 
+git clone --recursive https://github.com/zimfw/zimfw.git ${ZDOTDIR:-${HOME}}/.zim
+
+setopt EXTENDED_GLOB
+for template_file ( ${ZDOTDIR:-${HOME}}/.zim/templates/* ); do
+  user_file="${ZDOTDIR:-${HOME}}/.${template_file:t}"
+  touch ${user_file}
+  ( print -rn "$(<${template_file})$(<${user_file})" >! ${user_file} ) 2>/dev/null
+done
+
 echo "Initializing submodules"
 git submodule init
 git submodule update
 
 echo "Deleting the old files"
 rm -f ~/.profile
+rm -f ~/.zimrc
 rm -f ~/.zshrc
 rm -f ~/.zsh_aliases
 rm -f ~/.vimrc
@@ -23,6 +33,7 @@ rm -rf ~/.pip
 
 echo "Symlinking files"
 ln -s ~/dotfiles/profile ~/.profile
+ln -s ~/dotfiles/zimrc ~/.zimrc
 ln -s ~/dotfiles/zshrc ~/.zshrc
 ln -s ~/dotfiles/zsh_aliases ~/.zsh_aliases
 ln -s ~/dotfiles/vimrc ~/.vimrc
