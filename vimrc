@@ -41,32 +41,17 @@
     set nowrap
     set number
     set relativenumber
-    set ruler
     set showmatch
     set undofile
     set undodir^=~/.vim/undo
     set noshowcmd
-    set smartindent
 
 " Open splits below and to the right
     set splitbelow
     set splitright
 
-" Enable filetype detection
-    filetype plugin indent on
-
-" Enable sintax highlighting
-    syntax enable
-
 " Set the color scheme.
-    set background=dark
-    colorscheme Tomorrow-Night
-
-    if has('gui_macvim')
-        set guioptions-=m
-        set guioptions-=T
-        set guifont=Menlo\ for\ Powerline:h14
-    endif
+    colorscheme jellybeans
 
 " Configure completion
     set complete=.,i,d,t
@@ -165,10 +150,7 @@
     nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 " Correct indentation after opening a phpdocblock and automatic * on every line
-    set formatoptions=croqw2
-
-" Configure %% as an expression that returns the current file directory
-    cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+    set formatoptions+=croqw2
 
 " Restore comma function
     noremap \ ,
@@ -200,9 +182,6 @@
 " PLUGINS
 " -----------------------------------------------------------------------------
 
-" Go Plugin
-    set rtp+=$GOROOT/misc/vim
-
 " CtrlP
     let g:ctrlp_custom_ignore = {
      \ 'dir':  '\v[\/](\.git|\.hg|\.svn|env)$',
@@ -211,7 +190,6 @@
      \ }
     let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
-    let g:airline_powerline_fonts = 1
     let g:airline_theme='tomorrow'
 
 " vim-javascript
