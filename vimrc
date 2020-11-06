@@ -2,23 +2,23 @@
 " BASICS
 " -----------------------------------------------------------------------------
 
-    set nocompatible
-
 " Register bundles
     call plug#begin('~/.vim/plugged')
 
-    Plug 'Valloric/YouCompleteMe'
-    Plug 'nanotech/jellybeans.vim'
+    " Plug 'Valloric/YouCompleteMe'
     Plug 'ctrlpvim/ctrlp.vim'
     Plug 'editorconfig/editorconfig-vim'
     Plug 'jiangmiao/auto-pairs'
-    Plug 'marijnh/tern_for_vim'
+    Plug 'leafgarland/typescript-vim'
+    " Plug 'marijnh/tern_for_vim'
     Plug 'mattn/emmet-vim'
     Plug 'mxw/vim-jsx'
+    Plug 'nanotech/jellybeans.vim'
     Plug 'othree/html5.vim'
     Plug 'pangloss/vim-javascript'
     Plug 'rking/ag.vim'
-    Plug 'scrooloose/syntastic'
+    Plug 'rust-lang/rust.vim'
+    Plug 'tomlion/vim-solidity'
     Plug 'tpope/vim-abolish'
     Plug 'tpope/vim-commentary'
     Plug 'tpope/vim-eunuch'
@@ -28,8 +28,10 @@
     Plug 'tpope/vim-repeat'
     Plug 'tpope/vim-sensible'
     Plug 'tpope/vim-surround'
+    Plug 'unblevable/quick-scope'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    Plug 'w0rp/ale'
 
     call plug#end()
 
@@ -97,9 +99,9 @@
 " Settings for C
     autocmd filetype c compiler gcc
 
-" Settings for Go, Octave
+" Settings for Go
     autocmd BufRead,BufNewFile *.go setfiletype go
-    autocmd BufRead,BufNewFile *.m setfiletype octave
+    autocmd filetype go setlocal noexpandtab
 
 " Settings for Ruby
     autocmd BufRead,BufNewFile *.ru,Vagrantfile,Guardfile setfiletype ruby
@@ -112,6 +114,9 @@
 
 " Settings for Javascript
     autocmd filetype javascript nmap <leader>d Odebugger;<ESC>:w<CR>
+
+" Settings for Java
+    autocmd filetype java setlocal shiftwidth=4 softtabstop=4 tabstop=4
 
 " Settings for markdown
     autocmd filetype markdown set wrap
@@ -197,6 +202,3 @@
 
 " Vim-JSX
     let g:jsx_ext_required = 0
-
-" Syntastic
-    let g:syntastic_javascript_checkers = ['eslint']
