@@ -23,3 +23,5 @@
 	short = true
 [rebase]
 	autostash = 1
+[pull]
+	rebase = true
