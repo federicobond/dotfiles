@@ -4,18 +4,8 @@ export LANG='en_US.UTF-8'
 export LC_CTYPE='en_US.UTF-8'
 export LC_ALL='en_US.UTF-8'
 
-# Configure tmuxinator
-[[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
-
-# Export the Haskell cabal bin
-export PATH=$PATH:$HOME/.cabal/bin
-
 # Export MacTeX path
 export PATH=$PATH:/Library/TeX/texbin
-
-# Export Python paths
-export PATH=$PATH:/Users/federicobond/Library/Python/3.6/bin
-export PATH=$PATH:/Users/federicobond/Library/Python/2.7/bin
 
 # Export go tools
 export GOPATH="$HOME/code/go"
