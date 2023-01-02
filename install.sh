@@ -27,7 +27,6 @@ rm -f ~/.gitconfig
 rm -f ~/.gitignore
 rm -f ~/.jshintrc
 rm -f ~/.tmux.conf
-rm -f ~/.ackrc
 rm -f ~/.pythonstartup
 rm -rf ~/.pip
 
