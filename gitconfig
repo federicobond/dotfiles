@@ -10,7 +10,7 @@
 [instaweb]
 	httpd = webrick
 [push]
-	default = simple
+	default = current
 [credential]
 	helper = osxkeychain
 [help]
@@ -25,3 +25,5 @@
 	autostash = 1
 [pull]
 	rebase = true
+[init]
+	defaultBranch = main
