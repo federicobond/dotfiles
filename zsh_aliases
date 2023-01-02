@@ -12,7 +12,6 @@ rgvim () {
 alias dc="docker-compose"
 alias cat="bat"
 alias vim="nvim"
-alias muun="/Users/federicobond/code/muun/muun/toolkit/bin/muun"
 
 alias encrypt='openssl enc -e -aes-256-cbc -base64 -salt -md sha256 < /dev/stdin'
 alias decrypt='openssl enc -d -aes-256-cbc -base64 -salt -md sha256 < /dev/stdin'
