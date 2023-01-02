@@ -1,4 +1,5 @@
 vim/.netrwhist
 vim/plugged/*
+vim/undo/*
 pip/dlcache
 pip/pip.log
