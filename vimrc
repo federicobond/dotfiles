@@ -45,7 +45,7 @@
     set relativenumber
     set showmatch
     set undofile
-    set undodir^=~/.vim/undo
+    set undodir=~/.vim/undo
     set noshowcmd
 
 " Open splits below and to the right
